@@ -91,7 +91,7 @@
                                     <th scope="row">{product.title}</th>
                                     <td>{product.origin_price}</td>
                                     <td>{product.price}</td>
-                                    <td>{products.is_enabled ? '啟用' : '未啟用'}</td>
+                                    <td>{product.is_enabled ? '啟用' : '未啟用'}</td>
                                     <td><button type="button" onClick={()=>{setTempProduct(product)}} className="btn btn-primary">查看細節</button></td>   
                                     </tr>
                                     ))}
